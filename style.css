@@ -1666,3 +1666,52 @@ footer{
     line-height: 1.6;
   }
 }
+
+
+
+
+
+/* ===== EXPERIENCE CARD – DESKTOP FIX ===== */
+@media (min-width: 901px) {
+
+  #experience .project-container {
+    justify-content: center;
+  }
+
+  #experience .experience-box {
+    width: 70% !important;      /* 👈 wider on desktop */
+    max-width: 900px;           /* 👈 clean readable width */
+    margin: 0 auto;
+    padding: 35px 40px;
+  }
+
+  #experience .journey-meta {
+    text-align: center;
+    margin-bottom: 18px;
+  }
+
+  #experience .journey-list li {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 540px) {
+  #experience .experience-box {
+    padding: 20px 18px;
+  }
+
+  #experience .journey-list li {
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+}
