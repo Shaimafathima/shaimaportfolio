@@ -1550,3 +1550,91 @@ footer{
     border-radius: 14px;
   }
 }
+
+
+
+
+/* ===== EXPERIENCE MOBILE FINAL FIX ===== */
+@media (max-width: 540px) {
+
+  #experience .project-container {
+    padding: 0 12px;
+  }
+
+  #experience .experience-box {
+    width: 100% !important;
+    max-width: 100%;
+    padding: 18px 16px;
+    border-radius: 16px;
+  }
+
+  #experience .journey-meta {
+    padding: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+
+  #experience .journey-role {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  #experience .journey-company {
+    font-size: 13px;
+  }
+
+  #experience .journey-list {
+    padding-left: 18px;
+  }
+
+  #experience .journey-list li {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+  }
+}
+
+
+
+/* ===== EXPERIENCE CARD – MAKE IT LIKE INTRO BOX (MOBILE) ===== */
+@media (max-width: 540px) {
+
+  #experience .project-container {
+    padding: 0 14px;
+  }
+
+  #experience .experience-box {
+    width: 100% !important;
+    max-width: 420px;              /* 👈 keeps it compact */
+    margin: 0 auto;                /* 👈 centers the card */
+    padding: 20px 18px;
+    border-radius: 20px;
+    text-align: left;
+  }
+
+  #experience .journey-meta {
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+  }
+
+  #experience .journey-role {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  #experience .journey-company {
+    font-size: 13px;
+  }
+
+  #experience .journey-list {
+    padding-left: 18px;
+  }
+
+  #experience .journey-list li {
+    font-size: 13px;
+    line-height: 1.45;             /* 👈 reduces vertical stretch */
+    margin-bottom: 6px;
+  }
+}
