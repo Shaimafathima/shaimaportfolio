@@ -1717,6 +1717,12 @@ footer{
 }
 
 
+
+
+/* ===== FIX EMAIL WRAP ON MOBILE ===== */
+.contact-info p {
+  word-break: break-word;
+  text-align: center;
 }
 
 .contact-info a {
